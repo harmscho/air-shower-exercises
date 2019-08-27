@@ -1,6 +1,4 @@
-mkdir -p $HOME/Grad_Days_2019_AstroPart
-
-cd $HOME/Grad_Days_2019_AstroPart
+cd ../
 
 mkdir conda
 cd conda
@@ -15,4 +13,4 @@ curl https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh  > Mi
 fi
 bash Miniconda3-latest.sh -f -p $PWD/ -b
 
-export PATH=$HOME/Grad_Days_2019_AstroPart/conda/bin:$PATH
+export PATH=$PWD/conda/bin:$PATH
