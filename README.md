@@ -19,7 +19,7 @@ After running this script successful, you should be in the `grad-days` enviromen
 
 To set up the enivorment to work on the exercices:
 * `export PATH=$HOME/GradDays2019/AstroParticle/conda/bin:$PATH`  
-* `conda activate grad-days`
+* `source activate grad-days`
 
 Note, you can add the first command to your `$HOME/.bashrc` (or equivalent), such that the `conda` command is always in your `$PATH`.  
 
