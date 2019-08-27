@@ -4,7 +4,7 @@
 This repository contains exercises to familiarize graduate students with the detection of extensive air shower induced by cosmic particles. 
 
 ## Getting setup
-To get started setup a folder on your machine to work on:  
+To get started, setup a folder on your machine to work on:  
 * `mkdir -p $HOME/GradDays2019/AstroParticle`  
 
 Get the git-repository with exercises on your local machine:  
