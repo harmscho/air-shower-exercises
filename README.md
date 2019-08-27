@@ -1,6 +1,9 @@
 # air-showers-exercises
+
+
 This repository contains exercises to familiarize graduate students with the detection of extensive air shower induced by cosmic particles. 
 
+## Getting setup
 To get started setup a folder on your machine to work on:  
 * `mkdir -p $HOME/GradDays2019/AstroParticle`  
 
@@ -23,5 +26,6 @@ To set up the enivorment to work on the exercices:
 
 Note, you can add the first command to your `$HOME/.bashrc` (or equivalent), such that the `conda` command is always in your `$PATH`.  
 
+## Testing the enviroment
 
 
