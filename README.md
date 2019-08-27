@@ -4,7 +4,7 @@
 This repository contains exercises to familiarize graduate students with the detection of extensive air shower induced by cosmic particles. 
 
 ## Getting setup
-To get started, setup a folder on your machine to work on:  
+To get started, setup a folder on your machine to work in:  
 * `mkdir -p $HOME/GradDays2019/AstroParticle`  
 
 Get the git-repository with exercises on your local machine:  
@@ -15,9 +15,9 @@ In case you have *not* a working python + ipython notebook installation we recom
 * `cd $HOME/GradDays2019/AstroParticle/air-shower-exercises`  
 * `source python-setup.sh`
 
-This will download the mini-conda package python package manager and install the packages that can be used for the exercise. If you already have a working python installation (with `ipython notebooks`, `scipy` and `matplotlib`), you can skip this part
+This will download the mini-conda package python package manager and install the packages that can be used for the exercise. If you already have a working python installation (with `ipython notebooks`, `scipy` and `matplotlib`), you can skip this part.
 
-After running this script successful, you should be in the `grad-days` enviroment. You can get out of that enviroment by typing 
+After running this script successfully, you should be in the `grad-days` enviroment. You can get out of that enviroment by typing 
 * `conda deactivate`   
 
 To set up the enivorment to work on the exercices:
