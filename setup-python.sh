@@ -13,4 +13,7 @@ curl https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh  > Mi
 fi
 bash Miniconda3-latest.sh -f -p $PWD/ -b
 
-export PATH=$PWD/conda/bin:$PATH
+export PATH=$PWD/bin:$PATH
+conda create --name grad-days -c conda-forge -y numpy scipy jupyter matplotlib
+source activate grad-days
+cd ../air-shower-exercises/
