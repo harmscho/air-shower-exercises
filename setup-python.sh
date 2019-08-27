@@ -3,7 +3,7 @@ cd ../
 mkdir conda
 cd conda
 
-unset $PYTHONPATH
+unset PYTHONPATH
 
 # Get and install Miniconda
 if [ "$(uname)" == "Darwin" ]; then
